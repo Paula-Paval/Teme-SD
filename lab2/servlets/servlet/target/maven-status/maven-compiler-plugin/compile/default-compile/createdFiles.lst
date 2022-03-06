@@ -1,6 +1,11 @@
+ProcessNumbersServlet$1.class
+DeleteStudentServlet.class
+MonitorizareServlet$1.class
+UpdateStudentServlet.class
+ProcessIntervalServlet.class
 ReadStudentByNumeServlet.class
 ProcessBankOperationServlet.class
 ProcessStudentServlet.class
+MonitorizareServlet.class
 FetchStudentListServlet.class
-DeleteStudentServlet.class
-UpdateStudentServlet.class
+ProcessNumbersServlet.class

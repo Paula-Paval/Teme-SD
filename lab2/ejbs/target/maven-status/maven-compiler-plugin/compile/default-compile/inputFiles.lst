@@ -1,5 +1,8 @@
-/home/student/Desktop/laboratoare/lab2/ejbs/src/main/java/ejb/StudentEntity.java
-/home/student/Desktop/laboratoare/lab2/ejbs/src/main/java/interfaces/StatelessSessionBeanRemote.java
-/home/student/Desktop/laboratoare/lab2/ejbs/src/main/java/ejb/StatelessSessionBeanImpl.java
-/home/student/Desktop/laboratoare/lab2/ejbs/src/main/java/interfaces/BankAccountBeanRemote.java
-/home/student/Desktop/laboratoare/lab2/ejbs/src/main/java/ejb/BankAccountBeanImpl.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/ejb/IntervalBeanImpl.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/interfaces/BankAccountBeanRemote.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/ejb/NumbersEntity.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/ejb/StatelessSessionBeanImpl.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/interfaces/IntervalBean.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/ejb/StudentEntity.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/ejb/BankAccountBeanImpl.java
+/home/student/Desktop/Teme-SD/lab2/ejbs/src/main/java/interfaces/StatelessSessionBeanRemote.java

@@ -1,5 +1,8 @@
+ejb/NumbersEntity.class
 ejb/StudentEntity.class
+ejb/IntervalBeanImpl.class
 interfaces/StatelessSessionBeanRemote.class
 ejb/StatelessSessionBeanImpl.class
 ejb/BankAccountBeanImpl.class
 interfaces/BankAccountBeanRemote.class
+interfaces/IntervalBean.class

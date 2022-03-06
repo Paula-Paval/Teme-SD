@@ -33,5 +33,11 @@
 		 <a href="./search-by-nume.jsp">Update by id </a>
 		 <br>
           <a href="./delete-by-id.jsp">Delete by id</a>
+
+          <br>
+           <a href="./formular-numbers.jsp"> Introduceti numerele </a>
+           <br>
+              <a href="./formular-monitorizare.jsp"> Monitorizare </a>
+
 	</body>
 </html>

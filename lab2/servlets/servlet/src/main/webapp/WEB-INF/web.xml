@@ -1,8 +1,6 @@
-<!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaeehttp://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 
-<web-app>
     <display-name>Web Component App</display-name>
     <servlet>
         <servlet-name>ProcessBankOperation</servlet-name>
@@ -28,6 +26,24 @@
         <servlet-name>DeleteStudent</servlet-name>
         <servlet-class>DeleteStudentServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProcessNumbers</servlet-name>
+        <servlet-class>ProcessNumbersServlet</servlet-class>
+        <async-supported>true</async-supported>
+
+    </servlet>
+    <servlet>
+        <servlet-name>ProcessInterval</servlet-name>
+        <servlet-class>ProcessIntervalServlet</servlet-class>
+
+    </servlet>
+    <servlet>
+        <servlet-name>Monitorizare</servlet-name>
+        <servlet-class>MonitorizareServlet</servlet-class>
+        <async-supported>true</async-supported>
+
+    </servlet>
+
 
     <servlet-mapping>
         <servlet-name>ProcessBankOperation</servlet-name>
@@ -52,5 +68,17 @@
     <servlet-mapping>
         <servlet-name>DeleteStudent</servlet-name>
         <url-pattern>/delete-student</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcessNumbers</servlet-name>
+        <url-pattern>/process-numbers</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcessInterval</servlet-name>
+        <url-pattern>/process-interval</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Monitorizare</servlet-name>
+        <url-pattern>/monitorizare</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -20,5 +20,13 @@
             <ejb-class>ejb.BankAccountBeanImpl</ejb-class>
             <session-type>Stateful</session-type>
         </session>
+        <session>
+            <ejb-name>IntervalBean</ejb-name>
+            <mapped-name>interval</mapped-name>
+            <business-local>interfaces.IntervalBean</business-local>
+            <business-remote>interfaces.IntervalBean</business-remote>
+            <ejb-class>ejb.IntervalBeanImpl</ejb-class>
+            <session-type>Stateful</session-type>
+        </session>
     </enterprise-beans>
 </ejb-jar>
