@@ -10,10 +10,11 @@
 			A: <input type="number" name="a" />
 			<br>
 			B: <input type="number" name="b" />
+			<br>
 			Coloana1: <input type="text" name="c1" />
             			<br />
             Coloana2: <input type="text" name="c2" />
-            			<br>
+            <br>
 			<br>
 			<br>
 			<button type="submit" name="submit">Trimite</button>

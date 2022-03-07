@@ -12,6 +12,18 @@ import java.util.List;
 import java.util.Locale;
 
 public class MonitorizareServlet extends HttpServlet {
+    private   List <NumbersEntity> numbers;
+    @Override
+    public void init() {
+        final EntityManagerFactory factory = Persistence.createEntityManagerFactory("bazaDeDateSQLite");
+        final EntityManager em = factory.createEntityManager();
+        TypedQuery<NumbersEntity> query = em.createQuery("select n from NumbersEntity n", NumbersEntity.class);
+
+        numbers = query.getResultList();
+
+        em.close();
+        factory.close();
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         final AsyncContext acontext = request.startAsync();
@@ -25,15 +37,6 @@ public class MonitorizareServlet extends HttpServlet {
 
                                HttpServletResponse response = (HttpServletResponse) acontext.getResponse();
 
-                               final EntityManagerFactory factory = Persistence.createEntityManagerFactory("bazaDeDateSQLite");
-                               final EntityManager em = factory.createEntityManager();
-                               TypedQuery<NumbersEntity> query = em.createQuery("select n from NumbersEntity n", NumbersEntity.class);
-
-                               List <NumbersEntity> numbers = query.getResultList();
-
-
-                               em.close();
-                               factory.close();
 
                                String messaj = "";
 
