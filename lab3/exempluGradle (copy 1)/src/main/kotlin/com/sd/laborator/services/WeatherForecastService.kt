@@ -1,5 +1,6 @@
 package com.sd.laborator.services
 
+import com.sd.laborator.interfaces.TimeInterface
 import com.sd.laborator.interfaces.WeatherForecastInterface
 import com.sd.laborator.pojo.WeatherForecastData
 import com.sd.laborator.resources.BlackList
@@ -9,7 +10,7 @@ import java.net.URL
 import kotlin.math.roundToInt
 
 @Service
-class WeatherForecastService(private val timeService:TimeService) :WeatherForecastInterface{
+class WeatherForecastService(private val timeService: TimeInterface) :WeatherForecastInterface{
 
     override fun getForecastData(locationId:Int): WeatherForecastData {
 
